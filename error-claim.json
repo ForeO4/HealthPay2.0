@@ -1,0 +1,16 @@
+{
+  "providerId": "",
+  "patientId": "PAT456",
+  "dateOfService": "2024-03-20",
+  "items": [
+    {
+      "code": "invalid",
+      "description": "Invalid code",
+      "quantity": 0,
+      "unitPrice": -50.00,
+      "totalAmount": -50.00
+    }
+  ],
+  "diagnoses": [],
+  "totalAmount": -50.00
+}

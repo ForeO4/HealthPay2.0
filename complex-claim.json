@@ -1,0 +1,34 @@
+{
+  "providerId": "1234567890",
+  "patientId": "PAT789",
+  "dateOfService": "2024-03-20",
+  "items": [
+    {
+      "code": "99214",
+      "description": "Extended visit",
+      "quantity": 1,
+      "unitPrice": 200.00,
+      "totalAmount": 200.00
+    },
+    {
+      "code": "85025",
+      "description": "Blood test",
+      "quantity": 1,
+      "unitPrice": 75.00,
+      "totalAmount": 75.00
+    }
+  ],
+  "diagnoses": [
+    {
+      "code": "I10",
+      "type": "primary",
+      "description": "Hypertension"
+    },
+    {
+      "code": "E11.9",
+      "type": "secondary",
+      "description": "Type 2 diabetes"
+    }
+  ],
+  "totalAmount": 275.00
+}

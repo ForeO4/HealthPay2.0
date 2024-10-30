@@ -1,0 +1,26 @@
+{
+  "claims": [
+    {
+      "providerId": "",
+      "patientId": "PAT789",
+      "dateOfService": "2025-01-01",
+      "items": [
+        {
+          "code": "INVALID",
+          "description": "Invalid procedure code",
+          "quantity": 0,
+          "unitPrice": -50.00,
+          "totalAmount": 0.00
+        }
+      ],
+      "diagnoses": [
+        {
+          "code": "XXX",
+          "type": "primary",
+          "description": "Invalid diagnosis code"
+        }
+      ],
+      "totalAmount": 100.00
+    }
+  ]
+}

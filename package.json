@@ -1,0 +1,44 @@
+{
+  "name": "healthcare-payment-platform",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:e2e": "cypress run",
+    "test:e2e:dev": "cypress open"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.13.2",
+    "@tremor/react": "^3.14.1",
+    "date-fns": "^3.3.1",
+    "file-saver": "^2.0.5",
+    "lucide-react": "^0.344.0",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^4.0.13",
+    "react-router-dom": "^6.22.3",
+    "recharts": "^2.12.2",
+    "xlsx": "^0.18.5",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.18",
+    "cypress": "^13.6.6",
+    "eslint": "^9.9.1",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2",
+    "vitest": "^1.3.1"
+  }
+}

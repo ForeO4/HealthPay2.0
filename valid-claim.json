@@ -1,0 +1,22 @@
+{
+  "providerId": "1234567890",
+  "patientId": "PAT123",
+  "dateOfService": "2024-03-20",
+  "items": [
+    {
+      "code": "99213",
+      "description": "Office visit",
+      "quantity": 1,
+      "unitPrice": 150.00,
+      "totalAmount": 150.00
+    }
+  ],
+  "diagnoses": [
+    {
+      "code": "J20.9",
+      "type": "primary",
+      "description": "Acute bronchitis"
+    }
+  ],
+  "totalAmount": 150.00
+}

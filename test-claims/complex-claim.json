@@ -1,0 +1,45 @@
+{
+  "claims": [
+    {
+      "providerId": "1234567890",
+      "patientId": "PAT456",
+      "dateOfService": "2024-03-19",
+      "items": [
+        {
+          "code": "99215",
+          "description": "Complex office visit",
+          "quantity": 1,
+          "unitPrice": 250.00,
+          "totalAmount": 250.00
+        },
+        {
+          "code": "85025",
+          "description": "Complete blood count",
+          "quantity": 1,
+          "unitPrice": 45.00,
+          "totalAmount": 45.00
+        },
+        {
+          "code": "93000",
+          "description": "Electrocardiogram",
+          "quantity": 1,
+          "unitPrice": 120.00,
+          "totalAmount": 120.00
+        }
+      ],
+      "diagnoses": [
+        {
+          "code": "I10",
+          "type": "primary",
+          "description": "Essential hypertension"
+        },
+        {
+          "code": "E11.9",
+          "type": "secondary",
+          "description": "Type 2 diabetes without complications"
+        }
+      ],
+      "totalAmount": 415.00
+    }
+  ]
+}
